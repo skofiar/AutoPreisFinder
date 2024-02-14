@@ -8,7 +8,7 @@ $(document).ready(function(){
         e.preventDefaul(); // Prevents the default from submission
 
         // Change directory as soon as the code reaches this part:
-        window.location.href = "./sneat-1.0.0/overview.html";
+        window.location.href = "./Dashboards/Admin_dashboard.html";
     });
 
 });
