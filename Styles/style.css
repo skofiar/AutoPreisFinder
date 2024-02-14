@@ -21,12 +21,14 @@ body {
   z-index: 2;
 }
 
+/* E-Mail style section */
 .form-signin input[type="email"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
+/* Password style section */ 
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
@@ -48,11 +50,15 @@ body {
     flex-direction: column;
 }
 
-/* Styling Buttons so that there is a padding above and below:
-#form-button {
+/* Styling Buttons so that there is a padding above and below:*/
+.form-button {
     display: flex;
-    flex-direction: row;
-
-    padding: 10pm;
+    align-items: center;
+    justify-content: flex-start;
 }
-*/
+
+/* Adding a margin on the Buttons */
+.form-button .btn {
+    margin: 0px 1px;
+}
+
