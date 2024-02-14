@@ -3,10 +3,21 @@
 // - If he does, move him to another page:
 
 $(document).ready(function() {
+    // Sign-in Button is clicked
     $("#anmeldeButton").click(function(e){
         e.preventDefault(); // Prevents the default from submission
 
         // Change directory as soon as the code reaches this part:
         window.location.href = "./Dashboards/Admin_dashboard.html";
+    });
+});
+
+$(document).ready(function() {
+    // Register Button is clicked:
+    $("registerButton").click(function(e){
+        e.preventDefault(); // Prevents the default from submission
+
+        // Change directory as soon as the code reaches this part:
+        window.location.href = "./register.html";
     });
 });
