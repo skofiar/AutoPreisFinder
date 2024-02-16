@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     // Register Button is clicked:
-    $("registerButton").click(function(e){
+    $("#registerButton").click(function(e){
         e.preventDefault(); // Prevents the default from submission
 
         // Change directory as soon as the code reaches this part:
